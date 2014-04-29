@@ -1,0 +1,88 @@
+Abstact - 
+
+I Introduction
+
+Software Center is software to manage application in a operating sistem such as install, delete or upgrade applications. It is a required software in all operating system, both conventional or mobile devices. BlankOn as the Indonesian local operating system should have this application but in reality this application is not yet available [1].
+
+Traditionaly, to do package managemen, user deal with installaing package form console with apt syntac. This way is worst to other people. In other way user can use Synaptic Package Manager, a simple software center. But this interface just to old style.
+
+HTML5 is a trend of programming because this technology easy to adapted, can run in multple platfrom up to desktop utilization [2].
+
+This research tries to make software center HMTL5-based as solution for BlankOn.
+
+II Tradicional Software center
+
+A. YaST (yet another setup tool)
+Software center for opensuse. It use to manage all of user need for use opensuse. Example to install application, package, network setting etc. YaST devel form ruby and YCP and qt for UI, base c++[3 yast vendor].
+
+scr uset to injek scrip. interface base on qt.
+
+B. Ubuntu Software Center
+Software manajemen for ubuntu by canonical. It is free software written in Python, PyGTK/PyGObject based on GTK+ and the further development of the GNOME application, gnome-app-install. base commant for apt manajemen.[4][5]
+
+C. WarSi Software Center
+Software manajemen for blankon linux.[6 wiki blankon]. Base on htl5 to run simultani in manokwari desktop where base on html5 too.
+
+III HTML5 App in desktop
+run html 5 on dektop need other program, suck webkit to rendering html 5.
+
+A. webkit is renderin page to run html5, it base bla
+figure 1 how webkit work
+
+B. WarSi
+gui from apt command
+how it work.
+firgure 2.
+
+IV Develop WarSi
+
+A. Development method
+
+Developmen use evoluitionary protoyiping,
+- because (alasan) [7]
+figure 3 how prototyping
+
+1). Initial Consep and requirment
+what konsep
+
+2). Quick Desain
+
+3). Build Prototype
+
+4). Costumer Evaluation, Update
+
+5). If not done yet, Refine design and prototype
+
+6). IF happy, final testing and produck release
+
+B. UML
+
+1). Use Case diagram as figure 4
+thi app have 2 main requrment
+
+2) Activity Diagram
+- a
+- b
+
+3) Squence Diagram (need redraw)
+
+C. Result Develop
+
+D. Testing
+for same hasil (diagram pie)
+
+V. Conclution
+
+VI aknowledge
+UAD to founding
+
+Reference
+[1]
+[2]
+[3] Duncan Mac-Vicar P., "What you should know about YaST",Novell, Inc, 2008.
+[4] Mathew Paul Thomas, "Ubuntu Software Center", http://wiki.ubuntu.com/SoftwareCenter.
+[5] Lounpad Ubuntu
+[6] Wiki BlankOn,
+[7] John Dooley, "Software Development and Professional Practice", Springer Science Business Media, Inc, 2011.
+
+Pankaj Jalote, “An Integrated Approach to Software Engineering”, Springer Science Business Media, Inc, Third Edition, 2005
