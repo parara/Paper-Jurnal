@@ -1,4 +1,3 @@
-
 %% bare_conf.tex
 %% V1.3
 %% 2007/01/11
@@ -49,7 +48,6 @@
 % *** not appear when using other class files.                            ***
 % The testflow support page is at:
 % http://www.michaelshell.org/tex/testflow/
-
 
 
 % Note that the a4paper option is mainly intended so that authors in
@@ -398,28 +396,21 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Bare Demo of IEEEtran.cls for Conferences}
+\title{Developing Software Center Using Evolutionary Prototyping Based-on HTML5}
 
 
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\IEEEauthorblockN{Michael Shell}
-\IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
-Georgia Institute of Technology\\
-Atlanta, Georgia 30332--0250\\
-Email: http://www.michaelshell.org/contact.html}
+\author{\IEEEauthorblockN{Imam Riadi}
+\IEEEauthorblockA{Information Systems Study Program, Faculty of\\
+Mathematics and Natural Sciences,\\
+Ahmad Dahlan University, Yogyakarta, Indonesia}
 \and
-\IEEEauthorblockN{Homer Simpson}
-\IEEEauthorblockA{Twentieth Century Fox\\
-Springfield, USA\\
-Email: homer@thesimpsons.com}
-\and
-\IEEEauthorblockN{James Kirk\\ and Montgomery Scott}
-\IEEEauthorblockA{Starfleet Academy\\
-San Francisco, California 96678-2391\\
-Telephone: (800) 555--1212\\
-Fax: (888) 555--1212}}
+\IEEEauthorblockN{Estu Fardani}
+\IEEEauthorblockA{Informatics Department, Science and Technology Faculty,\\
+Sunan Kalijaga State Islamic University,\\
+Yogyakarta, Indonesia}}
 
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
@@ -443,18 +434,11 @@ Fax: (888) 555--1212}}
 %Telephone: (800) 555--1212, Fax: (888) 555--1212}
 %\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
 
-
-
-
 % use for special paper notices
 %\IEEEspecialpapernotice{(Invited Paper)}
 
-
-
-
 % make the title area
 \maketitle
-
 
 \begin{abstract}
 %\boldmath
@@ -470,8 +454,6 @@ The abstract goes here.
 % no keywords
 
 
-
-
 % For peer review papers, you can put extra information on the cover
 % page as needed:
 % \ifCLASSOPTIONpeerreview
@@ -482,28 +464,77 @@ The abstract goes here.
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
-
-
 \section{Introduction}
 % no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.7 and later.
+Software Center is software to manage application in a operating system such as install, delete or upgrade applications. It is a required software in all operating system, both conventional or mobile devices. BlankOn as the Indonesian local operating system should have this application but in reality this application is not yet available [1].
+
+Traditionally, to do package management, user deal with installing package form console with apt syntac. This way is worst to other people. In other way user can use Synaptic Package Manager, a simple software center. But this interface just to old style.
+
+HTML5 is a trend of programming because this technology easy to adapted, can run in multple platfrom up to desktop utilization [2].
+
+This research tries to make software center HMTL5-based as solution for BlankOn.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
-I wish you the best of success.
+\section{Software Center}
 
-\hfill mds
- 
-\hfill January 11, 2007
+YaST (yet another setup tool)
+Software center for opensuse. It use to manage all of user need for use opensuse. Example to install application, package, network setting etc. YaST devel form ruby and YCP and qt for UI, base c++[3 yast vendor].
 
-\subsection{Subsection Heading Here}
-Subsection text here.
+scr uset to injek scrip. interface base on qt.
 
+Ubuntu Software Center
+Software manajemen for ubuntu by canonical. It is free software written in Python, PyGTK/PyGObject based on GTK+ and the further development of the GNOME application, gnome-app-install. base commant for apt manajemen.[4][5]
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+\section{HTML5 App in desktop}
+run html 5 on dektop need other program, suck webkit to rendering html 5.
 
+\subsection{Webkit}
+webkit is renderin page to run html5, it base bla
+figure 1 how webkit work
+
+\subsection{WarSi}
+WarSi (Warung aplikasi)
+gui from apt command
+how it work.
+firgure 2.
+
+\section{Development WarSi}
+\subsection{Development Method}
+Developmen use evoluitionary protoyiping,
+- because (alasan) [7]
+figure 3 how prototyping
+
+\subsubsection{Initial Consep and requirment}
+what konsep
+
+\subsubsection{Quick Desain}
+
+\subsubsection{Build Prototype}
+
+\subsubsection{Costumer Evaluation, Update}
+
+\subsubsection{If not done yet, Refine design and prototype}
+
+\subsubsection{IF happy, final testing and produck release}
+
+\subsection{UML (Unified Modele Language}
+
+\subsubsection{Use Case Diagram}
+as figure 4
+thi app have 2 main requrment
+
+\subsubsection{Activity Diagram}
+- a
+- b
+
+\subsubsection{Squence Diagram}
+(need redraw)
+
+\subsection{Result Develop}
+
+\subsection{Testing}
+blackbox model
+for same hasil (diagram pie)
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -579,15 +610,12 @@ Subsubsection text here.
 %\end{tabular}
 %\end{table}
 
-
 % Note that IEEE does not put floats in the very first column - or typically
 % anywhere on the first page for that matter. Also, in-text middle ("here")
 % positioning is not used. Most IEEE journals/conferences use top floats
 % exclusively. Note that, LaTeX2e, unlike IEEE journals/conferences, places
 % footnotes above bottom floats. This can be corrected via the \fnbelowfloat
 % command of the stfloats package.
-
-
 
 \section{Conclusion}
 The conclusion goes here.
@@ -600,13 +628,7 @@ The conclusion goes here.
 
 % use section* for acknowledgement
 \section*{Acknowledgment}
-
-
-The authors would like to thank...
-
-
-
-
+Thank you to Ahmad Dahlan University for funding this research
 
 % trigger a \newpage just before the given reference
 % number - used to balance the columns on the last page
@@ -630,18 +652,28 @@ The authors would like to thank...
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
+\begin{thebibliography}
+{1}
+% \bibitem{IEEEhowto:kopka}
+% H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 
 \bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+Duncan Mac-Vicar P., \emph{What you should know about YaST}, Novell, Inc, 2008.
+
+\bibitem{IEEEhowto:kopka}
+Mathew Paul Thomas, \emph{Ubuntu Software Center}, http://wiki.ubuntu.com/SoftwareCenter.
+
+\bibitem{IEEEhowto:kopka}
+Lounpad Ubuntu
+
+\bibitem{IEEEhowto:kopka}
+Wiki BlankOn,
+
+\bibitem{IEEEhowto:kopka}
+John Dooley, \emph{Software Development and Professional Practice}, Springer Science Business Media, Inc, 2011.
 
 \end{thebibliography}
 
-
-
-
 % that's all folks
 \end{document}
-
-
