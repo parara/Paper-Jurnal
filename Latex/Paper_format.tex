@@ -1,3 +1,4 @@
+
 %% bare_conf.tex
 %% V1.3
 %% 2007/01/11
@@ -466,11 +467,11 @@ The abstract goes here.
 
 \section{Introduction}
 % no \IEEEPARstart
-Software Center has a function to management software, which adds, removes and update software. Its existence is necessary in all operating systems both desktop and mobile devices. This application use on OpenSUSE, Ubuntu, Mac OS X, Android, iOS, BlackBerry and Windows. However, these applications are not in BlankOn Linux as Indonesian local Linux distribution. Installation of applications in BlankOn Linux currently can be done in the traditional way: first from the console (terminal), thi way can be done if you know the name of the application you want to install the package. The second way to use the Synaptic Package Manager a management application packages. Despite using a GUI (graphic user interface) but still only be done if you know the name of the application you want to install the package and limited its use. Making it difficult for an ordinary user to install the application.
+Software Center has a function to management software, which adds, removes and update software. Its existence is necessary in all operating systems both desktop and mobile devices. This application use on OpenSUSE, Ubuntu, Mac OS X, Android, iOS, BlackBerry and Windows. However, these applications are not in BlankOn Linux as Indonesian local Linux distribution. Installation of applications in BlankOn Linux currently can be done in the traditional way: first from the console (terminal), this way can be done if you know the name of the application you want to install the package. The second way to use the Synaptic Package Manager a management application packages. Despite using a GUI (graphic user interface) but still only be done if you know the name of the application you want to install the package and limited its use. Making it difficult for an ordinary user to install the application.
 
 Similar applications that have been there is the Ubuntu Software Center for Ubuntu distribution. This application allowing licensed OpenSource applied to BlankOn Linux. However, since these applications have become a trademark of Ubuntu, needs further modification process. This process takes time and is not guaranteed to run well so, what ideas arise if made ​​to start from scratch.
 
-HTML5 is a trend of programming because this technology easy to adapted, can run in many platforms up to desktop utilization [2]. Manokwari Desktop a desktop environment for BlankOn Linux is base on HTML5. Development software center base on HTML5 can run consistent with development of BlankOn Linux [3]. This research tries to make software center HMTL5-based as solution for BlankOn Linux.
+HTML5 is a trend of programming because this technology easy to adapted, can run in many platforms up to desktop utilization [2]. Manokwari Desktop a desktop environment for BlankOn Linux is base on HTML5 and GNOME 3. Development software center base on HTML5 can run consistent with development of BlankOn Linux [3]. This research tries to make software center HMTL5-based as solution for BlankOn Linux.
 
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
@@ -482,11 +483,10 @@ Software center for openSUSE. It use to manage all of user need for use openSUSE
 Ubuntu Software Center
 Software management for Ubuntu by Canonical. It is free software written in Python, PyGTK/PyGObject based on GTK+ and the further development of the GNOME application, gnome-app-install.[4][5]
 
-\section{HTML5 App in desktop}
-run html 5 on dektop need other program, suck webkit to rendering html 5.
+\section{HTML5 App in Desktop}
 
 \subsection{Webkit and WebkitGTK+}
-WebKit is a layout engine software component for rendering web pages in web browsers. It powers Apple's Safari web browser and was previously used in Google's Chrome web browser. Figure 1 and 2 shows how Webkit work.
+WebKit is a layout engine software component for rendering web pages in web browsers. It powers Apple's Safari web browser and was previously used in Google Chrome web browser. Figure 1 and 2 shows how Webkit work.
 
 WebKit is also used as the basis for the experimental browser included with the Amazon Kindle e-book reader, as well as the default browser in the Apple iOS, Android, BlackBerry 10, and Tizen mobile operating systems. WebKit's C++ application programming interface provides a set of classes to display web content in windows, and implements browser features such as following links when clicked by the user, managing a back-forward list, and managing a history of pages recently visited.[6] bart
 
@@ -505,8 +505,20 @@ WebKit is also used as the basis for the experimental browser included with the 
 WebKitGTK+ is the GNOME platform port of the WebKit rendering engine. Offering WebKit’s full functionality through a set of GObject-based APIs, it is suitable for projects requiring any kind of web integration, from hybrid HTML/CSS applications to full-fledged web browsers, like Epiphany and Midori. It’s useful in a wide range of systems from desktop computers to embedded systems like phones, tablets, and televisions. WebKitGTK+ is made by a lively community of developers and designers, who hope to bring the web platform to everyone.[7] webkitgtk.org
 
 \subsection{WarSi}
-WarSi (Warung aplikasi)
-gui from apt command
+WarSi (Warung aplikasi) is the name of software center run in BlankOn Linux. It job to help user management applications by make Graphic User Interface. To do management WarSi need link to apt. its use vala programming. Object oriented programming base on c and GObject. 
+
+Valac, the Vala compiler, is a self-hosting compiler that translates Vala source code into C source and header files. It uses the GObject type system to create classes and interfaces declared in the Vala source code. The syntax of Vala is similar to C\#, modified to better fit the GObject type system. Vala supports modern language features as the following:
+
+\begin{itemize}
+\item Interfaces
+\item Properties
+\item Signals
+\item Foreach
+\item Lambda expressions
+\item Type inference for local variables
+\end{itemize}
+
+Vala is designed to allow access to existing C libraries, especially GObject-based libraries, without the need for runtime bindings. All that is needed to use a library with Vala is an API file, containing the class and method declarations in Vala syntax. Vala currently comes with experimental bindings for GLib and GTK+. It's planned to provide generated bindings for the full GNOME Platform at a later stage.
 
 \section{Development WarSi}
 \subsection{Design System}
@@ -519,7 +531,7 @@ Figure 3 show how design of WarSi.
 \end{figure}
 
 \subsection{Development Method}
-System development methods used in this study is the method of Evolutionary Prototyping. Evolutionary prototyping method has the steps as shown in Figure 3.
+System development methods used in this study is the method of Evolutionary Prototyping. Evolutionary prototyping method has the steps as shown in Figure 4.
 
 \begin{figure}[hbtp]
 \centering
@@ -539,11 +551,10 @@ Evolutionary prototyping provides other benefits including:
 \item the ability for developers to reflect on lessons learned during system development.
 \end{itemize}
 
-Step of Evolutionary Prototyping:
-\subsubsection{Initial Consep and requirment}
-what konsep
+Steps of Evolutionary Prototyping:
+\subsubsection{Initial Concept and Requirement}
 
-\subsubsection{Quick Desain}
+\subsubsection{Quick Design}
 
 \subsubsection{Build Prototype}
 
@@ -551,12 +562,12 @@ what konsep
 
 \subsubsection{If not done yet, Refine design and prototype}
 
-\subsubsection{IF happy, final testing and produck release}
+\subsubsection{If happy, final testing and product release}
 
-\subsection{UML (Unified Modeling Language}
+\subsection{UML (Unified Modelling Language}
 
 \subsubsection{Use Case Diagram}
-Figure 4 show the use case diagram for software center.
+Figure 5 show the use case diagram for software center.
 
 \begin{figure}[hbtp]
 \centering
@@ -573,7 +584,7 @@ This funtions make user can change source repository, save, update and upgrade s
 \end{itemize}
 
 \subsubsection{Activity Diagram}
-Figure 5 show activity diagram generaly.
+Figure 6 show activity diagram generally.
 
 \begin{figure}[hbtp]
 \centering
@@ -589,7 +600,7 @@ Activity Diagram Search Applications
 \caption{Activity Diagram Search Application}
 \end{figure}
 
-Figure 6 is an activity diagram for a search application. Search Application is divided into two, namely by entering a keyword in the search field and the search for applications by category. Process for Figure 6 are:
+Figure 7 is an activity diagram for a search application. Search Application is divided into two, namely by entering a keyword in the search field and the search for applications by category. Process for Figure 6 are:
 
 \begin{itemize}
 \item Users select search for applications by name or by category of applications,
@@ -607,7 +618,7 @@ Activity Diagram Repository Management
 \caption{Activity Diagram Repository Management}
 \end{figure}
 
-Process for Figure 7 are:
+Process for Figure 8 are:
 \begin{itemize}
 \item User select a menu from the main menu next repository, system will display the page repository, there are two options, choose source repository or directly perform the update,
 \item User can make changes to the repository by selecting the list
@@ -618,14 +629,23 @@ repository that is already available,
 \item Process is completed.
 \end{itemize}
 
-\subsubsection{Squence Diagram}
-(need redraw)
+\subsubsection{Sequence Diagram}
+(gambar ulang)
 
 \subsection{Result Development}
+diisini apa ini?
 
 \subsection{Testing}
-blackbox model
-for same hasil (diagram pie)
+Black box testing (also called functional testing) is testing that ignores the internal mechanism of a system or component and focuses solely on the outputs generated in response to selected inputs and execution conditions.[11]
+
+With black box testing, the software tester does not (or should not) have access to the source code itself. The code is considered to be a “big black box” to the tester who cannot see inside the box. The tester knows only that information can be input into to the black box, and the black box will send something back out.
+
+What the test :
+Functional include: (list of testing)
+
+after testing to 15 people the result is
+(diagram)
+
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -709,13 +729,14 @@ for same hasil (diagram pie)
 % command of the stfloats package.
 
 \section{Conclusion}
-The conclusion goes here.
-
-
-
+Based on the research that have been carried out during development Software Center using Evolutionary Prototyping HTML5-based, it can be concluded as follows:
+\begin{itemize}
+\item Analysis and development Software Center that can help users to manage applications in BlankOn Linux has been successfully carried out,
+\item In this study the HTML5 programming language can be used for development desktop application,
+\item Based on the test results showed that the Software Center can be run on BlankOn Linux.
+\end{itemize}.
 
 % conference papers do not normally have an appendix
-
 
 % use section* for acknowledgement
 \section*{Acknowledgment}
@@ -766,6 +787,9 @@ John Dooley, \emph{Software Development and Professional Practice}, Springer Sci
 
 \bibitem{IEEEhowto:kopka}
 Carter, Ryan A.,Antón, Annie I.,Dagnino, Aldo., Williams, Laurie, \emph{Evolving Beyond Requirements Creep:A Risk-Based Evolutionary Prototyping Model}, North Carolina State University, 2001.
+
+\bibitem{IEEEhowto:kopka}
+IEEE, \emph{IEEE Standard 610.12-1990, IEEE Standard Glossary of Software Engineering Terminology}, 1990.
 
 \end{thebibliography}
 
