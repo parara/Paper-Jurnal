@@ -507,10 +507,17 @@ WebKitGTK+ is the GNOME platform port of the WebKit rendering engine. Offering W
 \subsection{WarSi}
 WarSi (Warung aplikasi)
 gui from apt command
-how it work.
-firgure 2.
 
 \section{Development WarSi}
+\subsection{Design System}
+Figure 3 show how design of WarSi.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{image/DesignSystem.png}
+\caption{Design System}
+\end{figure}
+
 \subsection{Development Method}
 System development methods used in this study is the method of Evolutionary Prototyping. Evolutionary prototyping method has the steps as shown in Figure 3.
 
@@ -532,6 +539,7 @@ Evolutionary prototyping provides other benefits including:
 \item the ability for developers to reflect on lessons learned during system development.
 \end{itemize}
 
+Step of Evolutionary Prototyping:
 \subsubsection{Initial Consep and requirment}
 what konsep
 
@@ -545,20 +553,18 @@ what konsep
 
 \subsubsection{IF happy, final testing and produck release}
 
-\subsection{UML (Unified Modele Language}
+\subsection{UML (Unified Modeling Language}
 
 \subsubsection{Use Case Diagram}
-as figure 4
-thi app have 2 main requrment
-- gambar ulang -
+Figure 4 show the use case diagram for software center.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.6]{image/Usecase.png}
+\includegraphics[scale=0.7]{image/Usecase.png}
 \caption{Use case Diagram}
 \end{figure}
 
-this is a description of the process described in the use case diagram:
+This is a description of the process in the use case diagram:
 \begin{itemize}
 \item Search Application\\
 This process is performed to find the application as the user desires. Once the search is complete the user can install / remove applications and application upgrades.
@@ -567,8 +573,50 @@ This funtions make user can change source repository, save, update and upgrade s
 \end{itemize}
 
 \subsubsection{Activity Diagram}
-- a
-- b
+Figure 5 show activity diagram generaly.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.7]{image/ActivityDiagram.png}
+\caption{Activity Diagram}
+\end{figure}
+
+Activity Diagram Search Applications
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{image/ADSearchApp.png}
+\caption{Activity Diagram Search Application}
+\end{figure}
+
+Figure 6 is an activity diagram for a search application. Search Application is divided into two, namely by entering a keyword in the search field and the search for applications by category. Process for Figure 6 are:
+
+\begin{itemize}
+\item Users select search for applications by name or by category of applications,
+\item If you select by name, users enter a keyword or the name of the application you are looking for in the search field to find the application,
+\item If you select a category based application, the user selects a category that existed until the application is found,
+\item Application is found, the user chooses to install/remove or update the application,
+\item Installation process, and the process is complete.
+\end{itemize}
+
+Activity Diagram Repository Management
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{image/ADManagement.png}
+\caption{Activity Diagram Repository Management}
+\end{figure}
+
+Process for Figure 7 are:
+\begin{itemize}
+\item User select a menu from the main menu next repository, system will display the page repository, there are two options, choose source repository or directly perform the update,
+\item User can make changes to the repository by selecting the list
+repository that is already available,
+\item When the user makes changes to the repository, the system will saved the changes,
+\item When the user performs an update to the update repository the repository will be made and the system will display the process update,
+\item After update user can upgrade system if available, then the system will display the process upgrade.
+\item Process is completed.
+\end{itemize}
 
 \subsubsection{Squence Diagram}
 (need redraw)
