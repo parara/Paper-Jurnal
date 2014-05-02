@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.29)  2 MAY 2014 16:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.29)  2 MAY 2014 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,9 +435,6 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
  [3 <./image/Usecase.png> <./image/ActivityDiagram.png> <./image/ADSearchApp.pn
 g> <./image/ADManagement.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 777--778
@@ -472,14 +469,14 @@ Here is how much of TeX's memory you used:
  7476 multiletter control sequences out of 15000+600000
  34672 words of font info for 64 fonts, out of 8000000 for 9000
  960 hyphenation exceptions out of 8191
- 42i,14n,43p,918b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,43p,919b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013
 /texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Paper_format.pdf (4 pages, 277381 bytes).
+Output written on Paper_format.pdf (4 pages, 277211 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
