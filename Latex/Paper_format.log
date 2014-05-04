@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.29)  2 MAY 2014 17:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.29)  4 MAY 2014 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -239,43 +239,25 @@ Package color Info: Driver file: pdftex.def on input line 130.
 \f@ncyO@olf=\skip54
 \f@ncyO@orf=\skip55
 )
-(./Paper_format.aux
-
-LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
-
-
-LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
-
-
-LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
-
-
-LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
-
-
-LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
-
-
-LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
-
-)
+(./Paper_format.aux)
 \openout1 = `Paper_format.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 395.
-LaTeX Font Info:    ... okay on input line 395.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 395.
-LaTeX Font Info:    ... okay on input line 395.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 395.
-LaTeX Font Info:    ... okay on input line 395.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 395.
-LaTeX Font Info:    ... okay on input line 395.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 395.
-LaTeX Font Info:    ... okay on input line 395.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 395.
-LaTeX Font Info:    ... okay on input line 395.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 394.
+LaTeX Font Info:    ... okay on input line 394.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 394.
+LaTeX Font Info:    ... okay on input line 394.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 394.
+LaTeX Font Info:    ... okay on input line 394.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 394.
+LaTeX Font Info:    ... okay on input line 394.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 394.
+LaTeX Font Info:    ... okay on input line 394.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 394.
+LaTeX Font Info:    ... okay on input line 394.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen135
@@ -343,10 +325,6 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ã in font ptmr7t!
 
-Underfull \hbox (badness 4403) in paragraph at lines 483--485
-\OT1/ptm/m/n/10 by Canon-i-cal. It is free soft-ware writ-ten in Python,
- []
-
 <image/webkit.png, id=1, 481.8pt x 142.5325pt>
 File: image/webkit.png Graphic file (type png)
  <use image/webkit.png>
@@ -366,9 +344,9 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 506.
+(Font)              <7> on input line 509.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 506.
+(Font)              <5> on input line 509.
 
 
 Package Fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -379,18 +357,18 @@ Package Fancyhdr Warning: \headheight is too small (20.0pt):
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./image/webkit.png> <./image/webkitcomponents.png>]
+]
 <image/DesignSystem.png, id=13, 481.8pt x 363.3575pt>
 File: image/DesignSystem.png Graphic file (type png)
 
 <use image/DesignSystem.png>
-Package pdftex.def Info: image/DesignSystem.png used on input line 529.
+Package pdftex.def Info: image/DesignSystem.png used on input line 523.
 (pdftex.def)             Requested size: 240.8994pt x 181.6783pt.
  <image/ep-model.png, id=15, 425.59pt x 369.38pt>
 File: image/ep-model.png Graphic file (type png)
 
 <use image/ep-model.png>
-Package pdftex.def Info: image/ep-model.png used on input line 538.
+Package pdftex.def Info: image/ep-model.png used on input line 532.
 (pdftex.def)             Requested size: 212.79446pt x 184.68954pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -398,28 +376,29 @@ Missing character: There is no ò in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- <image/Usecase.png, id=16, 361.35pt x 259.7203pt>
+ [2 <./image/webkit.png> <./image/webkitcomponents.png> <./image/DesignSystem.p
+ng> <./image/ep-model.png>]
+<image/Usecase.png, id=20, 599.99156pt x 431.36156pt>
 File: image/Usecase.png Graphic file (type png)
+ <use image/Usecase.png>
+Package pdftex.def Info: image/Usecase.png used on input line 565.
+(pdftex.def)             Requested size: 251.99474pt x 181.17061pt.
 
-<use image/Usecase.png>
-Package pdftex.def Info: image/Usecase.png used on input line 574.
-(pdftex.def)             Requested size: 252.94327pt x 181.80296pt.
- [2 <./image/DesignSystem.png> <./image/ep-model.png>]
 <image/ActivityDiagram.png, id=21, 307.1475pt x 124.21407pt>
 File: image/ActivityDiagram.png Graphic file (type png)
 
 <use image/ActivityDiagram.png>
-Package pdftex.def Info: image/ActivityDiagram.png used on input line 591.
+Package pdftex.def Info: image/ActivityDiagram.png used on input line 582.
 (pdftex.def)             Requested size: 215.00177pt x 86.94923pt.
 
 <image/ADSearchApp.png, id=22, 452.73273pt x 284.30182pt>
 File: image/ADSearchApp.png Graphic file (type png)
 
 <use image/ADSearchApp.png>
-Package pdftex.def Info: image/ADSearchApp.png used on input line 599.
+Package pdftex.def Info: image/ADSearchApp.png used on input line 590.
 (pdftex.def)             Requested size: 226.3658pt x 142.15056pt.
 
-Underfull \hbox (badness 3861) in paragraph at lines 609--610
+Underfull \hbox (badness 3861) in paragraph at lines 599--600
 []\OT1/ptm/m/n/10 Application is found, the user chooses to in-
  []
 
@@ -427,17 +406,31 @@ Underfull \hbox (badness 3861) in paragraph at lines 609--610
 File: image/ADManagement.png Graphic file (type png)
 
 <use image/ADManagement.png>
-Package pdftex.def Info: image/ADManagement.png used on input line 617.
+Package pdftex.def Info: image/ADManagement.png used on input line 607.
 (pdftex.def)             Requested size: 250.85393pt x 56.1435pt.
+ [3 <./image/Usecase.png> <./image/ActivityDiagram.png> <./image/ADSearchApp.pn
+g> <./image/ADManagement.png>]
+<image/03HamalanPencarian.png, id=31, 803.0pt x 469.755pt>
+File: image/03HamalanPencarian.png Graphic file (type png)
+
+<use image/03HamalanPencarian.png>
+Package pdftex.def Info: image/03HamalanPencarian.png used on input line 631.
+(pdftex.def)             Requested size: 248.92743pt x 145.62254pt.
+
+<image/02HalamanRepository.png, id=32, 803.0pt x 464.73625pt>
+File: image/02HalamanRepository.png Graphic file (type png)
+
+<use image/02HalamanRepository.png>
+Package pdftex.def Info: image/02HalamanRepository.png used on input line 638.
+(pdftex.def)             Requested size: 248.92743pt x 144.06674pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [3 <./image/Usecase.png> <./image/ActivityDiagram.png> <./image/ADSearchApp.pn
-g> <./image/ADManagement.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 []\OT1/ptm/m/n/8 Mathew Paul Thomas, \OT1/ptm/m/it/8 Ubuntu Soft-ware Cen-ter\O
 T1/ptm/m/n/8 ,
  []
@@ -455,31 +448,30 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[4 <./image/03HamalanPencarian.png> <./image/02HalamanRepository.png>]
+(./Paper_format.aux)
 
-] (./Paper_format.aux)
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4062 strings out of 493315
- 64201 string characters out of 6137904
- 125026 words of memory out of 5000000
- 7476 multiletter control sequences out of 15000+600000
+ 4081 strings out of 493315
+ 64683 string characters out of 6137904
+ 128011 words of memory out of 5000000
+ 7493 multiletter control sequences out of 15000+600000
  34672 words of font info for 64 fonts, out of 8000000 for 9000
  960 hyphenation exceptions out of 8191
- 42i,14n,43p,919b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,43p,1257b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013
 /texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Paper_format.pdf (4 pages, 277211 bytes).
+Output written on Paper_format.pdf (4 pages, 536528 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
