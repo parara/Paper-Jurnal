@@ -527,7 +527,7 @@ Figure 3 show how design of WarSi.
 \subsection{Development Method}
 System development methods used in this study is the method of Evolutionary Prototyping. Evolutionary prototyping method has the steps as shown in Figure 4 [8].
 
-\begin{figure}[hbtp]
+\begin{figure}[!t]
 \centering
 \includegraphics[scale=0.5]{image/ep-model.png}
 \caption{Evolutionary Prototyping Process Model}
@@ -583,32 +583,22 @@ Figure 6 show activity diagram generally.
 \caption{Activity Diagram}
 \end{figure}
 
-Activity Diagram Search Applications
-
 \begin{figure}[!t]
 \centering
 \includegraphics[scale=0.5]{image/ADSearchApp.png}
 \caption{Activity Diagram Search Application}
 \end{figure}
 
-Figure 7 is an activity diagram for a search application. Search Application is divided into two, namely by entering a keyword in the search field and the search for applications by category. Process for Figure 6 are:
+Activity Diagram Search Applications. Figure 7 is an activity diagram for a search application. Search Application is divided into two, namely by entering a keyword in the search field and the search for applications by category. Process for Figure 7 are:
 \begin{itemize}
 \item Users select search for applications by name or by category of applications,
 \item If you select by name, users enter a keyword or the name of the application you are looking for in the search field to find the application,
 \item If you select a category based application, the user selects a category that existed until the application is found,
-\item Application is found, the user chooses to install/remove or update the application,
+\item Application is found, the user chose to install/remove or update the application,
 \item Installation process, and the process is complete.
 \end{itemize}
 
-Activity Diagram Repository Management
-
-\begin{figure}[!t]
-\centering
-\includegraphics[scale=0.5]{image/ADManagement.png}
-\caption{Activity Diagram Repository Management}
-\end{figure}
-
-Process for Figure 8 are:
+Activity Diagram Repository Management. Process for Figure 8 are:
 \begin{itemize}
 \item User select a menu from the main menu next repository, system will display the page repository, there are two options, choose source repository or directly perform the update,
 \item User can make changes to the repository by selecting the list
@@ -619,20 +609,44 @@ repository that is already available,
 \item Process is completed.
 \end{itemize}
 
+\begin{figure}[!t]
+\centering
+\includegraphics[scale=0.5]{image/ADManagement.png}
+\caption{Activity Diagram Repository Management}
+\end{figure}
+
 \subsubsection{Sequence Diagram}
-(gambar ulang)
+Figure 9 show sequence diagram for search application by name.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[scale=0.4]{image/SearchbyName.png}
+\caption{Sequence Diagram Search Application by Name}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[scale=0.4]{image/SearchbyCategory.png}
+\caption{Sequence Diagram Search Application by Category}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[scale=0.4]{image/ManagementRepo.png}
+\caption{Sequence Diagram Management Repository}
+\end{figure}
 
 \subsection{Result Development}
-After development finished, the result is prototype software center for BlankOn Linux. Base on HTML5 for front-end. Screenshoot WarSi can be found in Figure 10 and Figure 11.
+After development finished, the result is prototype software center for BlankOn Linux. Base on HTML5 for front-end. Screenshoot WarSi can be found in Figure 12 and Figure 13.
 
-Figure 10 show page to search application.
+Figure 14 show page to search application.
 \begin{figure}[!t]
 \centering
 \includegraphics[scale=0.31]{image/03HamalanPencarian.png}
 \caption{Implement Search Page}
 \end{figure}
 
-Figure 11 show page repository management.
+Figure 15 show page repository management.
 \begin{figure}[!t]
 \centering
 \includegraphics[scale=0.31]{image/02HalamanRepository.png}
@@ -644,11 +658,90 @@ Black box testing (also called functional testing) is testing that ignores the i
 
 With black box testing, the software tester does not (or should not) have access to the source code itself. The code is considered to be a “big black box” to the tester who cannot see inside the box. The tester knows only that information can be input into to the black box, and the black box will send something back out.
 
-What the test :
-Functional include: (list of testing)
+Parameter testing functionally of WarSI include: can it run?; can it install application; can it remove application; can it search application base on name; can it search application base on category; can it change source repository and save it; can it update and upgrade system. Parameter testing usability of WarSi include: can user use it without trouble (easy to use); will user use it again; how about interface; are users be helped with this application to repository management. 
 
-after testing to 15 people the result is
-(diagram)
+WarSi tested to 15 random correspondents. Table I and Table II show the result of functionally and usability system.
+
+\begin{table}[!t]
+\renewcommand{\arraystretch}{1.3}
+\caption{Result Functionally of Testing WarSi}
+\label{table_functional}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Parameter} & \textbf{Yes} & \textbf{No}\\
+\hline
+WarSi run & 15 & 0\\
+\hline
+Can install application & 15 & 0\\
+\hline
+Can remove application & 15 & 0\\
+\hline
+Can search application by name & 15 & 0\\
+\hline
+Can search application by category & 15 & 0\\
+\hline
+Can change repository source & 15 & 0\\
+\hline
+Can update and upgrade system & 15 & 0\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[!t]
+\renewcommand{\arraystretch}{1.3}
+\caption{Result Usability of Testing WarSi}
+\label{table_usability}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Parameter} & \textbf{VA} & \textbf{A} & \textbf{N} & \textbf{D} & \textbf{VD}\\
+\hline
+WarSi easy to use & 15 & 0 & 0 & 0 & 0\\
+\hline
+Will use WarSi again & 9 & 6 & 0 & 0 & 0\\
+\hline
+Graphic User Interface interactive & 10 & 5 & 0 & 0 & 0\\
+\hline
+WarSi helped to software management & 10 & 5 & 0 & 0 & 0\\
+\hline
+\end{tabular}
+\begin{tabular}{lll}
+Notes: &VA=Very Agree& A=Agree;\\
+N=Neutral; &D=Disagree; &VD=Very Disagree\\
+\end{tabular}
+\end{table}
+
+Percentage result functional WarSi:
+\begin{itemize}
+\item Yes : (75/75) x 100 = 100\%,
+\item No : (75/75) x 100 = 0\%,
+\end{itemize}
+
+Percentage result usability WarSi:
+\begin{itemize}
+\item Very Agree : (44/60) x 100 = 73\%,
+\item Agree : (16/60 x 100 = 27\%,
+\item Neutral : (0/60) x 100 = 0\%,
+\item Disagree : (0/60) x 100 = 0\%,
+\item Very Disagree : (0/60) x 100 = 0\%,
+\end{itemize}
+
+Based on test results involving 15 users, the most of the them give good score to WarSi center software, then the obtained test results showing that 10\% of users say functionality of the system has been running well and 0\% respondents expressed a functional system is not running properly. 
+
+Under the terms of usability testing software center, it is concluded that the majority of respondents are satisfied with the application made. Data usability test results that the respondents strongly agreed by 80\%, 20\% agree, neutral 0\%, which is expressed as 0\% disagree and strongly disagree that states as much as 0\%. Based on these test results, it can be concluded that the software center that has made this feasible for use. However, the need for further development of the application to obtain optimal application. Figure 15 and Figure 16 show percent of functionally and satisfied user using WarSi.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[scale=0.5]{image/functionally.png}
+\caption{Result Functionally Testing}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[scale=0.4]{image/usability.png}
+\caption{Result Usability Testing}
+\end{figure}
 
 
 % An example of a floating figure using the graphicx package.
@@ -804,7 +897,7 @@ Ryan A. Carter, Annie I. Antón, Aldo Dagnino, Laurie Williams, \emph{Evolving 
 \bibitem{IEEEhowto:IEEE}
 IEEE, \emph{IEEE Standard 610.12-1990, IEEE Standard Glossary of Software Engineering Terminology}, 1990.
 
-\bibitem{IEEEhowto:IEEE}
+\bibitem{IEEEhowto:williams}
 Laurie Williams, \emph{Testing Overview and Black-Box Testing Techniques}, 2006
 
 \end{thebibliography}
