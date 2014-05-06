@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.29)  5 MAY 2014 20:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.29)  6 MAY 2014 06:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,17 +325,21 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ‹ in font ptmr7t!
 
+Underfull \hbox (badness 4403) in paragraph at lines 483--484
+\OT1/ptm/m/n/10 by Canon-i-cal. It is free soft-ware writ-ten in Python,
+ []
+
 <image/webkit.png, id=1, 481.8pt x 142.5325pt>
 File: image/webkit.png Graphic file (type png)
  <use image/webkit.png>
-Package pdftex.def Info: image/webkit.png used on input line 495.
+Package pdftex.def Info: image/webkit.png used on input line 494.
 (pdftex.def)             Requested size: 240.8994pt x 71.26607pt.
 
 <image/webkitcomponents.png, id=2, 481.8pt x 206.7725pt>
 File: image/webkitcomponents.png Graphic file (type png)
 
 <use image/webkitcomponents.png>
-Package pdftex.def Info: image/webkitcomponents.png used on input line 501.
+Package pdftex.def Info: image/webkitcomponents.png used on input line 500.
 (pdftex.def)             Requested size: 240.8994pt x 103.38599pt.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -344,9 +348,9 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 509.
+(Font)              <7> on input line 508.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 509.
+(Font)              <5> on input line 508.
 
 
 Package Fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -362,13 +366,13 @@ Package Fancyhdr Warning: \headheight is too small (20.0pt):
 File: image/DesignSystem.png Graphic file (type png)
 
 <use image/DesignSystem.png>
-Package pdftex.def Info: image/DesignSystem.png used on input line 523.
+Package pdftex.def Info: image/DesignSystem.png used on input line 520.
 (pdftex.def)             Requested size: 240.8994pt x 181.6783pt.
  <image/ep-model.png, id=15, 425.59pt x 369.38pt>
 File: image/ep-model.png Graphic file (type png)
 
 <use image/ep-model.png>
-Package pdftex.def Info: image/ep-model.png used on input line 532.
+Package pdftex.def Info: image/ep-model.png used on input line 529.
 (pdftex.def)             Requested size: 212.79446pt x 184.68954pt.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -381,21 +385,21 @@ ng> <./image/ep-model.png>]
 <image/Usecase.png, id=20, 599.99156pt x 431.36156pt>
 File: image/Usecase.png Graphic file (type png)
  <use image/Usecase.png>
-Package pdftex.def Info: image/Usecase.png used on input line 565.
+Package pdftex.def Info: image/Usecase.png used on input line 562.
 (pdftex.def)             Requested size: 251.99474pt x 181.17061pt.
 
 <image/ActivityDiagram.png, id=21, 307.1475pt x 124.21407pt>
 File: image/ActivityDiagram.png Graphic file (type png)
 
 <use image/ActivityDiagram.png>
-Package pdftex.def Info: image/ActivityDiagram.png used on input line 582.
+Package pdftex.def Info: image/ActivityDiagram.png used on input line 579.
 (pdftex.def)             Requested size: 215.00177pt x 86.94923pt.
 
 <image/ADSearchApp.png, id=22, 452.73273pt x 284.30182pt>
 File: image/ADSearchApp.png Graphic file (type png)
 
 <use image/ADSearchApp.png>
-Package pdftex.def Info: image/ADSearchApp.png used on input line 588.
+Package pdftex.def Info: image/ADSearchApp.png used on input line 594.
 (pdftex.def)             Requested size: 226.3658pt x 142.15056pt.
  [3 <./image/Usecase.png> <./image/ActivityDiagram.png> <./image/ADSearchApp.pn
 g>]
@@ -403,42 +407,42 @@ g>]
 File: image/ADManagement.png Graphic file (type png)
 
 <use image/ADManagement.png>
-Package pdftex.def Info: image/ADManagement.png used on input line 614.
+Package pdftex.def Info: image/ADManagement.png used on input line 611.
 (pdftex.def)             Requested size: 250.85393pt x 56.1435pt.
 
 <image/SearchbyName.png, id=30, 548.0475pt x 309.155pt>
 File: image/SearchbyName.png Graphic file (type png)
 
 <use image/SearchbyName.png>
-Package pdftex.def Info: image/SearchbyName.png used on input line 623.
+Package pdftex.def Info: image/SearchbyName.png used on input line 620.
 (pdftex.def)             Requested size: 219.2151pt x 123.6598pt.
 
 <image/SearchbyCategory.png, id=31, 548.0475pt x 309.155pt>
 File: image/SearchbyCategory.png Graphic file (type png)
 
 <use image/SearchbyCategory.png>
-Package pdftex.def Info: image/SearchbyCategory.png used on input line 629.
+Package pdftex.def Info: image/SearchbyCategory.png used on input line 626.
 (pdftex.def)             Requested size: 219.2151pt x 123.6598pt.
 
 <image/ManagementRepo.png, id=32, 504.88625pt x 280.04625pt>
 File: image/ManagementRepo.png Graphic file (type png)
 
 <use image/ManagementRepo.png>
-Package pdftex.def Info: image/ManagementRepo.png used on input line 635.
+Package pdftex.def Info: image/ManagementRepo.png used on input line 632.
 (pdftex.def)             Requested size: 201.95091pt x 112.0165pt.
 
 <image/03HamalanPencarian.png, id=33, 803.0pt x 469.755pt>
 File: image/03HamalanPencarian.png Graphic file (type png)
 
 <use image/03HamalanPencarian.png>
-Package pdftex.def Info: image/03HamalanPencarian.png used on input line 645.
+Package pdftex.def Info: image/03HamalanPencarian.png used on input line 640.
 (pdftex.def)             Requested size: 248.92743pt x 145.62254pt.
 
 <image/02HalamanRepository.png, id=34, 803.0pt x 464.73625pt>
 File: image/02HalamanRepository.png Graphic file (type png)
 
 <use image/02HalamanRepository.png>
-Package pdftex.def Info: image/02HalamanRepository.png used on input line 652.
+Package pdftex.def Info: image/02HalamanRepository.png used on input line 646.
 (pdftex.def)             Requested size: 248.92743pt x 144.06674pt.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -453,25 +457,23 @@ e/02HalamanRepository.png>]
 File: image/functionally.png Graphic file (type png)
 
 <use image/functionally.png>
-Package pdftex.def Info: image/functionally.png used on input line 736.
+Package pdftex.def Info: image/functionally.png used on input line 730.
 (pdftex.def)             Requested size: 220.82445pt x 188.20265pt.
 
 <image/usability.png, id=43, 560.0925pt x 407.5225pt>
 File: image/usability.png Graphic file (type png)
 
 <use image/usability.png>
-Package pdftex.def Info: image/usability.png used on input line 742.
+Package pdftex.def Info: image/usability.png used on input line 736.
 (pdftex.def)             Requested size: 224.03302pt x 163.0061pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+ [5 <./image/functionally.png> <./image/usability.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 []\OT1/ptm/m/n/8 Mathew Paul Thomas, \OT1/ptm/m/it/8 Ubuntu Soft-ware Cen-ter\O
 T1/ptm/m/n/8 ,
  []
 
-[5 <./image/functionally.png> <./image/usability.png>]
 Missing character: There is no Ì in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
-
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -500,7 +502,7 @@ y10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper_format.pdf (6 pages, 606471 bytes).
+Output written on Paper_format.pdf (6 pages, 606920 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
